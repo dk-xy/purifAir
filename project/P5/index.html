@@ -1,0 +1,69 @@
+<head>
+
+  <style>
+    .canvasContainer {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      background-color: #cacaca;
+      height: 100%;
+      min-width: 800px;
+    }
+
+    .howToRead {
+      color: white;
+    }
+
+
+    .infoDiv {
+      width: 225px;
+      color: rgb(99, 98, 98);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10pt;
+      font-weight: 200;
+    }
+
+
+    .infoButton {
+      border: none;
+      background-color: #2a2a2ae8;
+      color: #cacaca;
+      border-radius: 20px;
+      -webkit-box-shadow: 0px 3px 3px -4px #0000002a;
+      box-shadow: 0px 3px 3px -4px #0000002a;
+    }
+
+    .infoButton:hover {
+
+      border: none;
+
+      box-shadow: inset 0 0 10px #0000002a;
+      -webkit-box-shadow: inset 0 0 10px #0000002a;
+    }
+
+    /* #canvasDiv {
+      /* display: flex; */
+  </style>
+
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script language="javascript" type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/p5.serialserver@0.0.28/lib/p5.serialport.js"></script>
+    <script src="sketch.js"></script>
+
+    <title>PurifAir</title>
+    <style>
+      body {
+        margin: 0;
+      }
+    </style>
+  </head>
+
+<body>
+  <div class="canvasContainer">
+    <div id="canvasDiv"></div>
+    <div class="howToRead" id="allInfo"></div>
+    <!-- <img class="purifAirImg" src="PurifAirLogoWhite.png" alt=""> -->
+  </div>
+</body>
+</head>
